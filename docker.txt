@@ -1,0 +1,2 @@
+comando usado para instaciar banco Postgres com docker
+sudo docker run --name nodeauth -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
